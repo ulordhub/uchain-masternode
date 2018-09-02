@@ -5,8 +5,9 @@ services:
     restart: always
     image: ulord/ulorder-ubuntu16.04:v1.1.6
     container_name: uchain-masternode
-    command: sh -c '/root/bin/ulordd -daemon; /root/bin/boa -c /root/bin; tail -f /dev/null'
+    command: sh -c '/uchain/ulordd -daemon; /root/bin/boa -c /root/bin; tail -f /dev/null'
     volumes:
+      - ./uchain:/uchain
       - ./logs:/root/log
       - ./ulordcore:/root/.ulordcore
     ports:

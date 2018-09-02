@@ -1,6 +1,6 @@
 
 RUN = docker exec uchain-masternode
-CLI = /root/bin/ulord-cli
+CLI = /uchain/ulord-cli
 
 start:
 	@docker-compose up -d

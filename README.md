@@ -13,12 +13,12 @@ apt install docker-compose git make
 git clone https://github.com/ulordhub/uchain-masternode.git
 ```
 
-进入 `uchain-masternode` 目录，修改 `ulordcore/ulord.conf` 配置文件，配置文件中配置：交易哈希、主节点证书、验证码、签名。
+进入 `uchain-masternode` 目录，修改 `ulordcore/ulord.conf` 配置文件，配置文件中配置：交易哈希、主节点证书、验证码、签名、IP。
 
 下载最新 uchain 软件，解压到 uchain 目录下
 ```
-wget https://github.com/UlordChain/UlordChain/releases/download/V.1.1.1/ulord-ubuntu-v-1-1-1-0.tar.gz
-tar zxf ulord-ubuntu-v-1-1-1-0.tar.gz -C uchain
+wget https://github.com/UlordChain/UlordChain/releases/download/V.1.1.2/ulordchain-ubuntu-v-1-1-2.tar.gz
+tar zxf ulordchain-ubuntu-v-1-1-2.tar.gz
 ```
 
 # 启动
